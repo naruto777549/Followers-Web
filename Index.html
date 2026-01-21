@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Top Followers - Get Free IG Followers</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Top Followers</h1>
+        <div id="coins">💰 Coins: 0</div>
+        
+        <button onclick="showAddAcc()">➕ Add Account</button>
+        <button onclick="showTasks()">📊 Tasks</button>
+        <button onclick="showShop()">🛒 Shop</button>
+        
+        <!-- Add Account Modal -->
+        <div id="addModal" class="modal">
+            <div class="modal-content">
+                <span onclick="closeModal('addModal')" class="close">&times;</span>
+                <h3>Add IG Account</h3>
+                <input type="text" id="username" placeholder="Username">
+                <input type="password" id="password" placeholder="Password">
+                <button onclick="addAccount()">Verify & Add</button>
+            </div>
+        </div>
+        
+        <!-- Shop Modal -->
+        <div id="shopModal" class="modal">
+            <!-- Shop content here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
